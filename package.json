@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babel-node": "babel-node --stage 0",
-    "dev": "NODE_ENV=development nodemon --exec babel-node -- server/index.js"
+    "dev": "nodemon --exec babel-node -- server/index.js"
   },
   "repository": {
     "type": "git",
@@ -40,6 +39,7 @@
     "babel-plugin-react-transform": "^1.1.1",
     "babel-preset-es2015": "^6.0.15",
     "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.1.2",
     "eslint-loader": "^1.1.1",
     "eslint-plugin-react": "^3.6.3",
     "express": "^4.13.3",
